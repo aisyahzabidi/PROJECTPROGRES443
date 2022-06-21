@@ -52,6 +52,8 @@
                 <input type="submit" class="btn btn-primary" value="Create Account">
             </div>
             <p>Already have an account? <a href="loginpage.php">Login now</a>.</p>
+
+            <img src="jkr_logo.jpg" alt="">
         </form>
     </div>
 </body>
