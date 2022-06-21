@@ -19,6 +19,7 @@ if($result1)
 }
 else
 {
+    
     echo "<script> alert('Failed to register! ');window.location.href = 'register.php'</script>";
 
 }
