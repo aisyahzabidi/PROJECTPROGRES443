@@ -14,8 +14,8 @@
 </head>
 <body>
 
-    <img src="jkr_logo.jpg" alt="">
-    
+    <img src="jkr_logo.jpg" alt="" width="500" height="600">
+
     <div class="wrapper">
         <h2>Register Account</h2>
         <p>Please fill in your credentials to create account.</p>
