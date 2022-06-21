@@ -13,6 +13,9 @@
     </style>
 </head>
 <body>
+
+    <img src="jkr_logo.jpg" alt="">
+    
     <div class="wrapper">
         <h2>Register Account</h2>
         <p>Please fill in your credentials to create account.</p>
@@ -54,7 +57,6 @@
             </div>
             <p>Already have an account? <a href="loginpage.php">Login now</a>.</p>
 
-            <img src="jkr_logo.jpg" alt="">
         </form>
     </div>
 </body>
