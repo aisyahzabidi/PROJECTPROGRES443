@@ -12,8 +12,7 @@
         .wrapper{ width: 360px; padding: 20px; }
     </style>
 </head>
-<body>
-    <h1 style="background-color:Black;">Jabatan Kerja Raya Malaysia</h1>
+<body style="background-color:Black;">
 
     <img src="jkr_logo.jpg" alt="" width="200" height="200">
 
