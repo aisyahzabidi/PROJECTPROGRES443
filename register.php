@@ -14,7 +14,7 @@
 </head>
 <body style="background-color:LightGoldenRodYellow;">
 
-    <img src="jkr_logo.jpg" alt="" width="200" height="200">
+    <img src="jkr_logo.png" alt="" width="200" height="200">
 
     <div class="wrapper">
         <h2>Register Account</h2>
