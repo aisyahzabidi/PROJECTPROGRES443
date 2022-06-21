@@ -92,7 +92,8 @@ $fuser=$_SESSION['fuser'];
                                 <option disabled selected>Choose complaint type</option>
                                 <option value="1">Jalan Raya</option>
                                 <option value="2">Lampu Isyarat</option>
-                                <option value="3">Lampu Isyarat</option>  <!---TAMBAH JENIS COMPLAINT----->
+                                <option value="3">Papan Tanda</option>
+                                <option value="4">Pembahagi Jalan</option>  <!---TAMBAH JENIS COMPLAINT----->
                             </div>
                                
                             </select><br><br><br>
