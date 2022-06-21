@@ -9,9 +9,11 @@
     <style>
         body{ font: 14px verdana; } 
         body{display:flex; flex-direction:column; justify-content:center; align-items:center;}
-        .wrapper{ width: 360px; padding: 20px; }
+        .wrapper{ width: 360px; padding: 20px; }   
     </style>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
+
 <body style="background-color:LightGoldenRodYellow;">
 
     <img src="jkr_logo.png" alt="" width="200" height="200">
@@ -50,14 +52,21 @@
             <div class="form-group">
                 <label>Email Address</label>
                 <input type="email" size="20" name="femail" id="femail" placeholder="Enter email address" required>
-                
+                  
             </div>
             <div class="form-group">
-                <input type="submit" class="btn btn-primary" value="Create Account">
+                <input type="submit" class="btn btn-primary" onclick="mySweetAlert()">Create Account</a>
             </div>
             <p>Already have an account? <a href="loginpage.php">Login now</a>.</p>
 
         </form>
     </div>
+    <script>
+   function mySweetAlert(){Swal.fire(
+  'Good job!',
+  'You clicked the button!',
+  'success'
+)
+   }
 </body>
 </html>
