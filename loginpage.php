@@ -8,6 +8,7 @@
     <style>
         body{ font: 14px sans-serif; }
         .wrapper{ width: 360px; padding: 20px; }
+        body{display:flex; flex-direction:column; justify-content:center; align-items:center;}
     </style>
 </head>
 <body>
