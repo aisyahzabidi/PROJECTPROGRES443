@@ -12,7 +12,7 @@
         .wrapper{ width: 360px; padding: 20px; }
     </style>
 </head>
-<body style="background-color:Black;">
+<body style="background-color:LightGoldenRodYellow;">
 
     <img src="jkr_logo.jpg" alt="" width="200" height="200">
 
