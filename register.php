@@ -11,7 +11,6 @@
         body{display:flex; flex-direction:column; justify-content:center; align-items:center;}
         .wrapper{ width: 360px; padding: 20px; }   
     </style>
-        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
 <body style="background-color:LightGoldenRodYellow;">
@@ -55,18 +54,12 @@
                   
             </div>
             <div class="form-group">
-                <input type="submit" class="btn btn-primary" onclick="mySweetAlert()">Create Account</a>
+                <input type="submit" class="btn btn-primary" value="Create Account">
             </div>
             <p>Already have an account? <a href="loginpage.php">Login now</a>.</p>
 
         </form>
     </div>
-    <script>
-   function mySweetAlert(){Swal.fire(
-  'Good job!',
-  'You clicked the button!',
-  'success'
-)
-   }
+  
 </body>
 </html>
