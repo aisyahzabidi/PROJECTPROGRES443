@@ -9,7 +9,7 @@
     <style>
         body{ font: 14px verdana; } 
         body{display:flex; flex-direction:column; justify-content:center; align-items:center;}
-        .wrapper{ width: 360px; padding: 20px; }   
+        .wrapper{ width: 360px; padding: 20px; border:360px solid Violet; }   
     </style>
 </head>
 
@@ -20,7 +20,6 @@
     <div class="wrapper">
         <h2>Register Account</h2>
         <p>Please fill in your credentials to create account.</p>
-        <h1 style="border:2px solid Violet;"></h1>
         <?php 
         if(!empty($login_err)){
             echo '<div class="alert alert-danger">' . $login_err . '</div>';
