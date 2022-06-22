@@ -12,7 +12,7 @@
     </style>
 </head>
 <body>
-
+<body style="background-color:LightGoldenRodYellow;">
     <img src="logo-jkr.png" alt="" width="270" height="200">
     <div class="wrapper">
     <?php if (isset($_GET['logout'])) { ?>  <br>   
