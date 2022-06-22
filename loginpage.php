@@ -13,7 +13,7 @@
 </head>
 <body>
 
-    <img src="logo-jkr.png" alt="" width="290" height="200">
+    <img src="logo-jkr.png" alt="" width="300" height="200">
     <div class="wrapper">
     <?php if (isset($_GET['logout'])) { ?>  <br>   
                     <div class="alert alert-info text-center text-danger" style="font-size: 15px;text-align: center; "><?php echo "You have logged out"; ?></div> <?php } ?>
