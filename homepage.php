@@ -20,7 +20,7 @@ include('dbconnect.php');
     <title>Jabatan Kerja Raya E-Aduan</title>
 </head>
 
-<body>
+<body style="background-color:LightGoldenRodYellow;">
 <!--Main Navigation-->
 <header>
    
