@@ -11,7 +11,7 @@
         body{display:flex; flex-direction:column; justify-content:center; align-items:center;}
     </style>
 </head>
-<body>
+<body style="background-color:LightGoldenRodYellow;">
 
     <img src="logo-jkr.png" alt="" width="270" height="200">
     <div class="wrapper">
