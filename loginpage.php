@@ -11,9 +11,15 @@
         body{display:flex; flex-direction:column; justify-content:center; align-items:center;}
     </style>
 </head>
+<<<<<<< HEAD
 <body>
-<body style="background-color:LightGoldenRodYellow;">
+
     <img src="logo-jkr.png" alt="" width="270" height="200">
+=======
+<body style="background-color:LightGoldenRodYellow;">
+
+    <img src="logo-jkr.png" alt="" width="320" height="200">
+>>>>>>> 6126a3497ca8d4fba036d2cf9f40522f3ae78e2f
     <div class="wrapper">
     <?php if (isset($_GET['logout'])) { ?>  <br>   
                     <div class="alert alert-info text-center text-danger" style="font-size: 15px;text-align: center; "><?php echo "You have logged out"; ?></div> <?php } ?>

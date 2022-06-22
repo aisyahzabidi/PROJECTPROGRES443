@@ -25,7 +25,7 @@ $fuser=$_SESSION['fuser'];
     <title>CS443 Project</title>
 </head>
 
-<body>
+<body style="background-color:LightGoldenRodYellow;">
 <!--Main Navigation-->
 <header>
     <!-- Sidebar -->
