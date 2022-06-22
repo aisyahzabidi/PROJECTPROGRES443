@@ -9,7 +9,7 @@
     <style>
         body{ font: 14px verdana; } 
         body{display:flex; flex-direction:column; justify-content:center; align-items:center;}
-        .wrapper{ width: 360px; padding: 20px; border:360px solid Violet; }   
+        .wrapper{ width: 360px; padding: 20px; border:2px solid Violet; }   
     </style>
 </head>
 
