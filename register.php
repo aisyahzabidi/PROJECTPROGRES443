@@ -9,18 +9,17 @@
     <style>
         body{ font: 14px verdana; } 
         body{display:flex; flex-direction:column; justify-content:center; align-items:center;}
-        .wrapper{ width: 360px; padding: 20px; }   
+        .wrapper{ width: 360px; padding: 20px; border:360px solid Violet; }   
     </style>
 </head>
 
 <body style="background-color:LightGoldenRodYellow;">
-<h1 style="border:2px solid Violet;"></h1>
+
     <img src="jkr_logo.png" alt="" width="200" height="200">
 
     <div class="wrapper">
         <h2>Register Account</h2>
         <p>Please fill in your credentials to create account.</p>
-
         <?php 
         if(!empty($login_err)){
             echo '<div class="alert alert-danger">' . $login_err . '</div>';
