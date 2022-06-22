@@ -7,13 +7,14 @@
     <title>Register</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
-        body{ font: 14px sans-serif; }
+        body{ font: 14px verdana; } 
         body{display:flex; flex-direction:column; justify-content:center; align-items:center;}
-        .wrapper{ width: 360px; padding: 20px; }
+        .wrapper{ width: 360px; padding: 20px; }   
     </style>
 </head>
-<body style="background-color:LightGoldenRodYellow;">
 
+<body style="background-color:LightGoldenRodYellow;">
+<h1 style="border:2px solid Violet;"></h1>
     <img src="jkr_logo.png" alt="" width="200" height="200">
 
     <div class="wrapper">
@@ -50,7 +51,7 @@
             <div class="form-group">
                 <label>Email Address</label>
                 <input type="email" size="20" name="femail" id="femail" placeholder="Enter email address" required>
-                
+                  
             </div>
             <div class="form-group">
                 <input type="submit" class="btn btn-primary" value="Create Account">
@@ -59,5 +60,6 @@
 
         </form>
     </div>
+  
 </body>
 </html>
