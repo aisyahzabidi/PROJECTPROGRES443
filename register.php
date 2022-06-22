@@ -10,6 +10,7 @@
         body{ font: 14px verdana; } 
         body{display:flex; flex-direction:column; justify-content:center; align-items:center;}
         .wrapper{ width: 360px; padding: 20px; }   
+        
     </style>
 </head>
 
@@ -18,6 +19,7 @@
     <img src="jkr_logo.png" alt="" width="200" height="200">
 
     <div class="wrapper">
+    <h1 style="border:2px solid Violet;"></h1>
         <h2>Register Account</h2>
         <p>Please fill in your credentials to create account.</p>
 
